@@ -31,7 +31,7 @@ html, body {
 
 body {
   background-image: url("background.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .App {
@@ -42,6 +42,7 @@ body {
   @include flex(row, center, center);
   @include media("<=tablet") {
     @include flex(column, center, center);
+    width: 100%;
   }
 
   background-color: white;
