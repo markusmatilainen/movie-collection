@@ -1,10 +1,10 @@
 ## Description
 
-Web application for searching information about movies. Uses the fetch() method to get information from the OMDb API.
+Web application for searching information about movies. Uses the fetch() method to get information from the OMDb API. Returns movie title, year, genre, runtime and short description about the plot.
 
 ## Usage
 
-Application has two input fields, one for the movie title, and another one for the release year. Release year is optional. When the user presses the "Search" button, the information about the movie will appear in the container below.
+Application has two input fields, one for the movie title, and another one for the release year. Release year is optional. When the user presses the search button, the information about the movie will appear in the container below.
 
 ## Technologies
 
